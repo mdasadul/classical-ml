@@ -16,5 +16,5 @@ Using dataset from https://medium.com/we-are-orb/multivariate-linear-regression-
 
 ### K-Nearest Neighbors
 Using the classic Iris dataset from https://archive.ics.uci.edu/ml/datasets/Iris.
-
+It is hard to visualize the actual datapoints, so here is the pairplot.
 ![K-Nearest Neighbors](result-plots/knn_classification.png)
