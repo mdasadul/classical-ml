@@ -22,7 +22,7 @@ Using dataset from https://medium.com/we-are-orb/multivariate-linear-regression-
 
 ### K-Nearest Neighbors Classification
 
-Given the input `sepal_length`, `sepal_width`, `petal_length`, and `petal_width` parameters of an Iris flower, the algorithm tries to predict its species - _setosa_, _virginica_, or _versicolor_. For a particular testing input, the algorithm looks at `k` data points closest to it (in eucledian terms), and determines the best species. Overall, my implementation resulted in 83.79% accuracy.
+Given the input `sepal_length`, `sepal_width`, `petal_length`, and `petal_width` parameters of an Iris flower, the algorithm tries to predict its species - _setosa_, _virginica_, or _versicolor_. For a particular testing input, the algorithm looks at `k` data points closest to it (in eucledian terms), and determines the best species. Overall, my implementation resulted in __83.79%__ accuracy.
 
 Using the classic Iris dataset from https://archive.ics.uci.edu/ml/datasets/Iris.
 It is hard to visualize the actual datapoints in 5 dimensions, so here is the pairplot.
@@ -30,6 +30,6 @@ It is hard to visualize the actual datapoints in 5 dimensions, so here is the pa
 
 ### Naive-Bayes Classification
 
-Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes conditional probability is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in 90.98% accuracy.
+Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes theorem (conditional probability) is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in __90.98%__ accuracy.
 
 Using the SMS Spam Collection dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection.
