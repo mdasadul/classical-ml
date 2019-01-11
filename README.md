@@ -30,6 +30,6 @@ It is hard to visualize the actual datapoints in 5 dimensions, so here is the pa
 
 ### Naive-Bayes Classification
 
-Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes theorem (conditional probability) is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in __93.59%__ accuracy.
+Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes theorem (conditional probability) is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in __85.20%__ accuracy.
 
 Using the SMS Spam Collection dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection.
