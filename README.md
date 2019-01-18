@@ -1,6 +1,6 @@
-# Machine Learning Algorithms
+# Classical Machine Learning
 
-Implementing classic machine learning algorithms using basic Python libraries, on datasets available publicly on the web. Although this repository focuses on implementation, I am planning to collect my own data and apply these algorithms on them for interesting tasks soon.
+Implementing classical machine learning algorithms using basic Python libraries, on datasets available publicly on the web. Although this repository focuses on implementation, I am planning to collect my own data and apply these algorithms on them for interesting tasks soon.
 
 __NOTE__: It is recommended to view the iPython Notebook files (.ipynb) on https://nbviewer.jupyter.org/ instead of Github.
 
