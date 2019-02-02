@@ -37,3 +37,19 @@ It is hard to visualize the actual datapoints in 5 dimensions, so here is the pa
 Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes theorem (conditional probability) is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in __96.95%__ accuracy.
 
 Using the SMS Spam Collection dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection.
+
+Spam examples - 
+```
+Free entry in 2 a wkly comp to win FA Cup final tkts 21st May 2005. 
+Text FA to 87121 to receive entry question(std txt rate)T&C's apply 08452810075over18's
+
+As a valued customer I am pleased to advise you that following recent 
+review of your Mob No. you are awarded with a £1500 Bonus Prize call 09066364589
+```
+Ham examples -
+```
+Just forced myself to eat a slice. I'm really not hungry tho. 
+This sucks. Mark is getting worried. He knows I'm sick when I turn down pizza. Lol
+
+I'm still looking for a car to buy. And have not gone 4the driving test yet.
+```
