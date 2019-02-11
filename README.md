@@ -12,13 +12,13 @@ Feel free to fork this repository and add your own implementations of these algo
 
 Given linear _multi_-dimensional data, computes the best fit hyperplane, i.e. for new input values, the model predicts corresponding output values for them. In this case, the input consists of number of `bedrooms`, and `area` of an apartment, and the algorithm computes the best fit __plane__ which describes the relationship of the input with the `price` of the apartment.
 
-Using dataset from ![Tanmoy's](https://medium.com/@tanmoy) article on ![Medium](https://medium.com) - https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905.
+Using dataset from [Tanmoy's](https://medium.com/@tanmoy) article on [Medium](https://medium.com) - https://medium.com/we-are-orb/multivariate-linear-regression-in-python-without-scikit-learn-7091b1d45905.
 
 ![Multivariate Linear Regression](result-plots/multivariate_linear_regression.svg)
 
 ### Logistic Regression
 
-Given the RNA gene expressions of Pancreatic Cancer patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD, this algorithm is being used to classify the correct type of tumor that the patient has. This regression technique does not assume linearity in data. Instead, it uses what is called the ![Softmax/Logistic](https://en.wikipedia.org/wiki/Softmax_function) function for fitting the training data into a model. Overall, my implementation resulted in __98.00%__ accuracy.
+Given the RNA gene expressions of Pancreatic Cancer patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD, this algorithm is being used to classify the correct type of tumor that the patient has. This regression technique does not assume linearity in data. Instead, it uses what is called the [Softmax/Logistic](https://en.wikipedia.org/wiki/Softmax_function) function for fitting the training data into a model. Overall, my implementation resulted in __98.00%__ accuracy.
 
 Using the PANCAN-RNA-SEQ dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq.
 Each data point the the dataset has 20531 attributes, so it is really difficult to actually visualize the dataset.
@@ -56,6 +56,6 @@ I'm still looking for a car to buy. And have not gone 4the driving test yet.
 
 Given linear two dimensional data, computes the best fit line, i.e. for new input values, the model predicts corresponding output values for them. 
 
-Using dataset from ![Tanmoy's](https://medium.com/@tanmoy) article on ![Medium](https://medium.com) - https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122.
+Using dataset from [Tanmoy's](https://medium.com/@tanmoy) article on [Medium](https://medium.com) - https://medium.com/we-are-orb/linear-regression-in-python-without-scikit-learn-50aef4b8d122.
 
 ![Univariate Linear Regression](result-plots/univariate_linear_regression.svg)
