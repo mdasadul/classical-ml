@@ -8,7 +8,7 @@ __NOTE__: It is recommended to view the iPython Notebook files (.ipynb) on https
 
 Feel free to fork this repository and add your own implementations of these algorithms for your own datasets. Create a Pull Request and add your own (appropriately named) branch with a summary of proposed changes.
 
-### Multivariate Linear Regression
+### [Multivariate Linear Regression](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/multivariate_linear_regression.ipynb)
 
 Given linear _multi_-dimensional data, computes the best fit hyperplane, i.e. for new input values, the model predicts corresponding output values for them. In this case, the input consists of number of `bedrooms`, and `area` of an apartment, and the algorithm computes the best fit __plane__ which describes the relationship of the input with the `price` of the apartment.
 
@@ -16,14 +16,14 @@ Using dataset from [Tanmoy's](https://medium.com/@tanmoy) article on [Medium](ht
 
 ![Multivariate Linear Regression](result-plots/multivariate_linear_regression.svg)
 
-### Logistic Regression
+### [Logistic Regression](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/logistic_regression.ipynb)
 
 Given the RNA gene expressions of Pancreatic Cancer patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD, this algorithm is being used to classify the correct type of tumor that the patient has. This regression technique does not assume linearity in data. Instead, it uses what is called the [Softmax/Logistic](https://en.wikipedia.org/wiki/Softmax_function) function for fitting the training data into a model. Overall, my implementation resulted in __98.00%__ accuracy.
 
 Using the PANCAN-RNA-SEQ dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq.
 Each data point the the dataset has 20531 attributes, so it is really difficult to actually visualize the dataset.
 
-### K-Nearest Neighbors Classification
+### [K-Nearest Neighbors Classification](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/knn_classification.ipynb)
 
 Given the input `sepal_length`, `sepal_width`, `petal_length`, and `petal_width` parameters of an Iris flower, the algorithm tries to predict its species - _setosa_, _virginica_, or _versicolor_. For a particular testing input, the algorithm looks at `k` data points closest to it (in eucledian terms), and determines the best species. Overall, my implementation resulted in __83.79%__ accuracy.
 
@@ -31,7 +31,7 @@ Using the classic Iris dataset from UCI's machine learning repository - https://
 It is hard to visualize the actual datapoints in 5 dimensions, so here is the pairplot.
 ![K-Nearest Neighbors](result-plots/knn_classification.png)
 
-### Naive-Bayes Classification
+### [Naive-Bayes Classification](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/naive_bayes_classification.ipynb)
 
 Given an SMS text message, the algorithm tries to predict whether the text is a `spam` or `ham`. For a particular testing input, the algorithm analyzes each word occuring in it, and using the occurrence of that word within the training set, it decides the tag of the input text. Bayes theorem (conditional probability) is the key idea of this algorithm, and it assumes independence between all features of the text. I used a 'bag of words' representation for each text message. Overall, my implementation resulted in __96.95%__ accuracy.
 
@@ -52,7 +52,7 @@ This sucks. Mark is getting worried. He knows I'm sick when I turn down pizza. L
 
 I'm still looking for a car to buy. And have not gone 4the driving test yet.
 ```
-### Univariate Linear Regression
+### [Univariate Linear Regression](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/univariate_linear_regression.ipynb)
 
 Given linear two dimensional data, computes the best fit line, i.e. for new input values, the model predicts corresponding output values for them. 
 
