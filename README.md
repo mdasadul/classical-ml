@@ -10,9 +10,9 @@ Feel free to fork this repository and add your own implementations of these algo
 
 ### [Logistic Regression](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/logistic_regression.ipynb)
 
-Given the RNA gene expressions of Pancreatic Cancer patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD, this algorithm is being used to classify the correct type of tumor that the patient has. This regression technique does not assume linearity in data. Instead, it uses what is called the [Softmax/Logistic](https://en.wikipedia.org/wiki/Softmax_function) function for fitting the training data into a model. Overall, my implementation resulted in __98.00%__ accuracy.
+Given the RNA gene expressions of Pancreatic Cancer patients having different types of tumor: `BRCA`, `KIRC`, `COAD`, `LUAD` and `PRAD`, this algorithm is being used to classify the correct type of tumor that the patient has. This regression technique does not assume linearity in data. Instead, it uses what is called the [Softmax/Logistic](https://en.wikipedia.org/wiki/Softmax_function) function for fitting the training data into a model. Overall, my implementation resulted in __98.00%__ accuracy.
 
-Using the PANCAN-RNA-SEQ dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq.
+Using the Pancan RNA-Seq dataset from UCI's machine learning repository - https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq.
 Each data point the the dataset has 20531 attributes, so it is really difficult to actually visualize the dataset.
 
 ### [K-Nearest Neighbors Classification](https://nbviewer.jupyter.org/github/pranaymethuku/classical-ml/blob/master/notebooks/knn_classification.ipynb)
